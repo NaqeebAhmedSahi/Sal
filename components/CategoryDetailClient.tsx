@@ -142,7 +142,7 @@ export default function CategoryDetailClient({
                 icon={subcategoryIcons[subcategory.slug] || '📦'}
                 href={`/category/${categorySlug}/${subcategory.slug}`}
                 gradient={subcategoryGradients[subcategory.slug] || 'from-gray-500 to-gray-600'}
-                delay={index * 0.1}
+                index={index}
               />
             ))}
           </div>

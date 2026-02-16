@@ -173,7 +173,7 @@ export default function SubcategoryDetailClient({
                 icon={getIcon(subSubcategory.name)}
                 href={`/category/${categorySlug}/${subcategorySlug}/${subSubcategory.slug}`}
                 gradient={getGradient(index)}
-                delay={index * 0.1}
+                index={index}
               />
             ))}
           </div>
