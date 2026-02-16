@@ -1,0 +1,298 @@
+{
+  "categories": [
+    {
+      "id": "surgical",
+      "name": "Surgical Instruments",
+      "slug": "surgical-instruments",
+      "description": "Premium surgical instruments crafted with precision for medical professionals worldwide",
+      "subcategories": [
+        {
+          "id": "general-surgery",
+          "name": "General Surgery",
+          "slug": "general-surgery",
+          "description": "Essential instruments for general surgical procedures",
+          "subcategories": [
+            {
+              "id": "scalpels",
+              "name": "Scalpels & Blades",
+              "slug": "scalpels-blades",
+              "description": "Precision surgical scalpels and replacement blades",
+              "products": [
+                { "id": "p1", "name": "Disposable Scalpel #10", "sku": "SI-SC-D10", "description": "Sterile disposable scalpel with #10 blade for precision incisions", "material": "Stainless Steel", "finish": "Satin" },
+                { "id": "p2", "name": "Surgical Blade #15", "sku": "SI-SB-15", "description": "High-carbon steel surgical blade for curved incisions", "material": "Carbon Steel", "finish": "Polished" },
+                { "id": "p3", "name": "Safety Scalpel", "sku": "SI-SS-01", "description": "Retractable safety scalpel for enhanced user protection", "material": "Stainless Steel", "finish": "Satin" }
+              ]
+            },
+            {
+              "id": "forceps",
+              "name": "Forceps & Clamps",
+              "slug": "forceps-clamps",
+              "description": "Surgical forceps and clamps for tissue manipulation",
+              "products": [
+                { "id": "p4", "name": "Adson Forceps", "sku": "SI-AF-12", "description": "Precision forceps with 1x2 teeth for delicate tissue handling", "material": "Stainless Steel", "finish": "Satin" },
+                { "id": "p5", "name": "Kelly Clamp", "sku": "SI-KC-14", "description": "Curved Kelly clamp 14cm for clamping blood vessels", "material": "Stainless Steel", "finish": "Satin" },
+                { "id": "p6", "name": "Mosquito Forceps", "sku": "SI-MF-10", "description": "Fine mosquito forceps for small vessel ligation", "material": "Stainless Steel", "finish": "Polished" }
+              ]
+            },
+            {
+              "id": "scissors",
+              "name": "Surgical Scissors",
+              "slug": "surgical-scissors",
+              "description": "High-quality surgical scissors for cutting tissue",
+              "products": [
+                { "id": "p7", "name": "Mayo Scissors", "sku": "SI-MS-C6", "description": "Curved Mayo scissors 6 inches for cutting heavy tissue", "material": "Stainless Steel", "finish": "Satin" },
+                { "id": "p8", "name": "Metzenbaum Scissors", "sku": "SI-MZ-C7", "description": "Delicate Metzenbaum scissors for dissection", "material": "Stainless Steel", "finish": "Satin" },
+                { "id": "p9", "name": "Iris Scissors", "sku": "SI-IS-S4", "description": "Fine Iris scissors for precision cutting", "material": "Stainless Steel", "finish": "Polished" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "orthopedic",
+          "name": "Orthopedic Surgery",
+          "description": "Specialized instruments for orthopedic procedures",
+          "slug": "orthopedic-surgery",
+          "subcategories": [
+            {
+              "id": "bone-instruments",
+              "name": "Bone Instruments",
+              "slug": "bone-instruments",
+              "description": "Robust instruments for bone cutting and shaping",
+              "products": [
+                { "id": "p10", "name": "Bone Saw", "sku": "OR-BS-01", "description": "Surgical bone saw for precise bone cutting", "material": "Stainless Steel", "finish": "Satin" },
+                { "id": "p11", "name": "Bone Rongeur", "sku": "OR-BR-15", "description": "Double-action bone rongeur for bone removal", "material": "Stainless Steel", "finish": "Satin" },
+                { "id": "p12", "name": "Osteotome", "sku": "OR-OS-20", "description": "Precision osteotome for bone cutting", "material": "Stainless Steel", "finish": "Polished" }
+              ]
+            },
+            {
+              "id": "implants",
+              "name": "Implants & Plates",
+              "slug": "implants-plates",
+              "description": "Orthopedic implants and fixation plates",
+              "products": [
+                { "id": "p13", "name": "Titanium Plate", "sku": "OR-TP-M", "description": "Medical grade titanium fixation plate", "material": "Titanium", "finish": "Matte" },
+                { "id": "p14", "name": "Hip Implant", "sku": "OR-HI-PRO", "description": "Total hip replacement implant system", "material": "Titanium", "finish": "Polished" },
+                { "id": "p15", "name": "Screws Set", "sku": "OR-SS-KIT", "description": "Complete orthopedic screw set", "material": "Titanium", "finish": "Polished" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cardiovascular",
+          "name": "Cardiovascular",
+          "slug": "cardiovascular",
+          "description": "Specialized cardiovascular surgical instruments",
+          "subcategories": [
+            {
+              "id": "vascular",
+              "name": "Vascular Instruments",
+              "slug": "vascular-instruments",
+              "description": "Instruments for vascular surgery procedures",
+              "products": [
+                { "id": "p16", "name": "Vascular Clamp", "sku": "CV-VC-45", "description": "Atraumatic vascular clamp for vessel occlusion", "material": "Stainless Steel", "finish": "Satin" },
+                { "id": "p17", "name": "Aortic Punch", "sku": "CV-AP-3mm", "description": "Aortic punch for creating anastomosis openings", "material": "Stainless Steel", "finish": "Polished" },
+                { "id": "p18", "name": "Bulldog Clamp", "sku": "CV-BC-SM", "description": "Small bulldog clamp for temporary vessel occlusion", "material": "Stainless Steel", "finish": "Satin" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dental",
+      "name": "Dental Equipment",
+      "slug": "dental-equipment",
+      "description": "Professional dental instruments for comprehensive oral care",
+      "subcategories": [
+        {
+          "id": "diagnostic",
+          "name": "Diagnostic Tools",
+          "slug": "diagnostic-tools",
+          "description": "Essential diagnostic instruments for dental examination",
+          "subcategories": [
+            {
+              "id": "mirrors",
+              "name": "Dental Mirrors",
+              "slug": "dental-mirrors",
+              "description": "High-quality dental mirrors for clear visualization",
+              "products": [
+                { "id": "d1", "name": "Front Surface Mirror", "sku": "DE-FSM-5", "description": "Anti-fog front surface dental mirror", "material": "Stainless Steel", "finish": "Polished" },
+                { "id": "d2", "name": "Magnifying Mirror", "sku": "DE-MM-2X", "description": "2X magnification dental mirror", "material": "Stainless Steel", "finish": "Polished" },
+                { "id": "d3", "name": "Disposable Mirror", "sku": "DE-DM-100", "description": "Single-use disposable dental mirrors", "material": "Plastic", "finish": "Reflective" }
+              ]
+            },
+            {
+              "id": "explorers",
+              "name": "Explorers & Probes",
+              "slug": "explorers-probes",
+              "description": "Precision dental explorers and periodontal probes",
+              "products": [
+                { "id": "d4", "name": "Dental Explorer", "sku": "DE-EX-23", "description": "Sharp dental explorer for caries detection", "material": "Stainless Steel", "finish": "Polished" },
+                { "id": "d5", "name": "Periodontal Probe", "sku": "DE-PP-WHO", "description": "WHO periodontal probe with color coding", "material": "Stainless Steel", "finish": "Satin" },
+                { "id": "d6", "name": "Sickle Probe", "sku": "DE-SP-17", "description": "Sickle-shaped dental probe", "material": "Stainless Steel", "finish": "Polished" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "restorative",
+          "name": "Restorative Dentistry",
+          "slug": "restorative-dentistry",
+          "description": "Instruments for restorative dental procedures",
+          "subcategories": [
+            {
+              "id": "filling",
+              "name": "Filling Instruments",
+              "slug": "filling-instruments",
+              "description": "Complete set of dental filling instruments",
+              "products": [
+                { "id": "d7", "name": "Composite Filler", "sku": "DE-CF-01", "description": "Precision composite filling instrument", "material": "Stainless Steel", "finish": "Satin" },
+                { "id": "d8", "name": "Amalgam Carrier", "sku": "DE-AC-REG", "description": "Regular amalgam carrier for restorations", "material": "Stainless Steel", "finish": "Satin" },
+                { "id": "d9", "name": "Burnisher Set", "sku": "DE-BS-KIT", "description": "Complete burnisher instrument set", "material": "Stainless Steel", "finish": "Polished" }
+              ]
+            },
+            {
+              "id": "crown-bridge",
+              "name": "Crown & Bridge",
+              "slug": "crown-bridge",
+              "description": "Instruments for crown and bridge procedures",
+              "products": [
+                { "id": "d10", "name": "Crown Remover", "sku": "DE-CR-AUTO", "description": "Automatic crown remover tool", "material": "Stainless Steel", "finish": "Satin" },
+                { "id": "d11", "name": "Impression Tray", "sku": "DE-IT-UP", "description": "Upper arch impression tray", "material": "Aluminum", "finish": "Anodized" },
+                { "id": "d12", "name": "Temporary Crown", "sku": "DE-TC-SET", "description": "Temporary crown material kit", "material": "Resin", "finish": "Natural" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "extraction",
+          "name": "Extraction Tools",
+          "slug": "extraction-tools",
+          "description": "Professional dental extraction instruments",
+          "subcategories": [
+            {
+              "id": "forceps-dental",
+              "name": "Extraction Forceps",
+              "slug": "extraction-forceps",
+              "description": "Specialized forceps for tooth extraction",
+              "products": [
+                { "id": "d13", "name": "Universal Forceps", "sku": "DE-UF-150", "description": "Universal extraction forceps for all teeth", "material": "Stainless Steel", "finish": "Satin" },
+                { "id": "d14", "name": "Molar Forceps", "sku": "DE-MF-17", "description": "Lower molar extraction forceps", "material": "Stainless Steel", "finish": "Satin" },
+                { "id": "d15", "name": "Pediatric Forceps", "sku": "DE-PF-SM", "description": "Small forceps for pediatric extractions", "material": "Stainless Steel", "finish": "Polished" }
+              ]
+            },
+            {
+              "id": "elevators",
+              "name": "Dental Elevators",
+              "slug": "dental-elevators",
+              "description": "Elevators for tooth luxation and extraction",
+              "products": [
+                { "id": "d16", "name": "Straight Elevator", "sku": "DE-SE-301", "description": "Straight dental elevator 3mm", "material": "Stainless Steel", "finish": "Satin" },
+                { "id": "d17", "name": "Curved Elevator", "sku": "DE-CE-34S", "description": "Cryer elevator curved pattern", "material": "Stainless Steel", "finish": "Satin" },
+                { "id": "d18", "name": "Root Elevator", "sku": "DE-RE-APEX", "description": "Fine root tip elevator", "material": "Stainless Steel", "finish": "Polished" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "Beauty & Aesthetics",
+      "slug": "beauty-aesthetics",
+      "description": "Professional beauty and aesthetic treatment instruments",
+      "subcategories": [
+        {
+          "id": "cosmetic-surgery",
+          "name": "Cosmetic Surgery",
+          "slug": "cosmetic-surgery",
+          "description": "Advanced cosmetic surgery instruments and equipment",
+          "subcategories": [
+            {
+              "id": "facial",
+              "name": "Facial Surgery Tools",
+              "slug": "facial-surgery-tools",
+              "description": "Specialized tools for facial cosmetic procedures",
+              "products": [
+                { "id": "b1", "name": "Facelift Scissors", "sku": "BA-FS-DEL", "description": "Delicate facelift scissors curved", "material": "Titanium", "finish": "Satin" },
+                { "id": "b2", "name": "Blepharoplasty Kit", "sku": "BA-BK-COMP", "description": "Complete blepharoplasty instrument kit", "material": "Stainless Steel", "finish": "Polished" },
+                { "id": "b3", "name": "Rhinoplasty Set", "sku": "BA-RS-PRO", "description": "Professional rhinoplasty instrument set", "material": "Stainless Steel", "finish": "Satin" }
+              ]
+            },
+            {
+              "id": "liposuction",
+              "name": "Liposuction Equipment",
+              "slug": "liposuction-equipment",
+              "description": "Complete liposuction systems and accessories",
+              "products": [
+                { "id": "b4", "name": "Cannula Set", "sku": "BA-CS-MULT", "description": "Multi-port cannula set various sizes", "material": "Stainless Steel", "finish": "Polished" },
+                { "id": "b5", "name": "Tumescent Pump", "sku": "BA-TP-AUTO", "description": "Automatic tumescent infiltration pump", "material": "Medical Grade Plastic", "finish": "Matte" },
+                { "id": "b6", "name": "Liposuction Machine", "sku": "BA-LM-PRO", "description": "Professional liposuction aspirator system", "material": "Medical Grade", "finish": "Matte White" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dermatology",
+          "name": "Dermatology",
+          "slug": "dermatology",
+          "description": "Advanced dermatological treatment equipment",
+          "subcategories": [
+            {
+              "id": "laser-devices",
+              "name": "Laser Devices",
+              "slug": "laser-devices",
+              "description": "Professional laser treatment systems",
+              "products": [
+                { "id": "b7", "name": "CO2 Laser", "sku": "BA-CO2-FRAC", "description": "Fractional CO2 laser resurfacing system", "material": "Medical Grade", "finish": "White" },
+                { "id": "b8", "name": "IPL Device", "sku": "BA-IPL-MULTI", "description": "Multi-function IPL hair removal system", "material": "Medical Grade", "finish": "White" },
+                { "id": "b9", "name": "Diode Laser", "sku": "BA-DL-808", "description": "808nm diode laser hair removal", "material": "Medical Grade", "finish": "Silver" }
+              ]
+            },
+            {
+              "id": "skincare",
+              "name": "Skincare Equipment",
+              "slug": "skincare-equipment",
+              "description": "Professional skincare treatment devices",
+              "products": [
+                { "id": "b10", "name": "Microdermabrasion", "sku": "BA-MD-DIAM", "description": "Diamond tip microdermabrasion system", "material": "Medical Grade", "finish": "White" },
+                { "id": "b11", "name": "LED Light Therapy", "sku": "BA-LED-7COLOR", "description": "7-color LED phototherapy panel", "material": "Medical Grade", "finish": "White" },
+                { "id": "b12", "name": "Ultrasonic Cleaner", "sku": "BA-UC-DEEP", "description": "Deep ultrasonic skin cleansing device", "material": "ABS Plastic", "finish": "White" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "injectables",
+          "name": "Injectables & Fillers",
+          "slug": "injectables-fillers",
+          "description": "Injectable treatment tools and accessories",
+          "subcategories": [
+            {
+              "id": "botox",
+              "name": "Botox & Neurotoxins",
+              "slug": "botox-neurotoxins",
+              "description": "Precision botox and neurotoxin injection instruments",
+              "products": [
+                { "id": "b13", "name": "Botox Injection Kit", "sku": "BA-BIK-COMP", "description": "Complete botox injection kit with needles", "material": "Medical Grade", "finish": "Sterile" },
+                { "id": "b14", "name": "Micro Needles", "sku": "BA-MN-32G", "description": "32G ultra-fine micro needles 100pk", "material": "Stainless Steel", "finish": "Polished" },
+                { "id": "b15", "name": "Precision Syringe", "sku": "BA-PS-0.5ML", "description": "0.5ml precision syringe with markings", "material": "Medical Grade Plastic", "finish": "Clear" }
+              ]
+            },
+            {
+              "id": "dermal-fillers",
+              "name": "Dermal Fillers",
+              "slug": "dermal-fillers",
+              "description": "Professional dermal filler injection tools",
+              "products": [
+                { "id": "b16", "name": "Hyaluronic Acid Filler", "sku": "BA-HAF-1ML", "description": "1ml hyaluronic acid dermal filler", "material": "Medical Grade", "finish": "Clear Gel" },
+                { "id": "b17", "name": "Calcium Hydroxylapatite", "sku": "BA-CHA-1.5ML", "description": "1.5ml calcium hydroxylapatite filler", "material": "Medical Grade", "finish": "White Gel" },
+                { "id": "b18", "name": "Poly-L-lactic Acid", "sku": "BA-PLLA-2ML", "description": "2ml poly-L-lactic acid filler", "material": "Medical Grade", "finish": "Clear Gel" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
